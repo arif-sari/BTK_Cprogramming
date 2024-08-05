@@ -3,7 +3,7 @@
 int main(){
     int i=3;
 
-    i+=5;
+    i+=50;
     printf("%d\n",i);
 
     i-=5;
@@ -12,13 +12,19 @@ int main(){
     i*=5;
     printf("%d\n",i);
 
+    
+    i/=3;
+    printf("%d\n",i);
+    
     i%=3;
     printf("%d\n",i);
 
-    i/=3;
-    printf("%d\n",i);
+    print("%d\n",);
+    
+    printf("%d\n",i++); // önce yazdırıp sonra değer artırır 
+    printf("%d\n",++i); // önce degerartırıp sonra yazdırır
 
-    return 0;
+  return 0;
 
 
 
