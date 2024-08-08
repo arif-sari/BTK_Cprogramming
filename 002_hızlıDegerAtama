@@ -12,16 +12,16 @@ int main(){
     i*=5;
     printf("%d\n",i);
 
-    
+
     i/=3;
     printf("%d\n",i);
-    
+
     i%=3;
     printf("%d\n",i);
 
-    print("%d\n",);
-    
-    printf("%d\n",i++); // önce yazdırıp sonra değer artırır 
+    printf("%d\n",i);
+
+    printf("%d\n",i++); // önce yazdırıp sonra değer artırır
     printf("%d\n",++i); // önce degerartırıp sonra yazdırır
 
   return 0;
