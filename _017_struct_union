@@ -57,9 +57,19 @@ int main()
     printf("\n............................\n");
 
 
+    //personel bilgilerini yeni bir yapıya kopyala
 
+    struct PersonelBilgisi Personel2Kopyasi;
+     Personel2Kopyasi=Personel2;
+    //personel2'nin kopyası structının değerlerinin yazdırır
+    //personel 2nin kopyasını oluşturdurğumuz için aynı bilgileri personel2 kopyasında dagörmemiz gerekir
 
+    printf("Personelin Adı: %s\n", Personel2Kopyasi.Isim);
+    printf("Personelin Cinsiyeti: %s\n", Personel2Kopyasi.Cinsiyet);
+    printf("Personelin Yaşı: %d \n", Personel2Kopyasi.Yas);
+    printf("Personelim Maaşı: %.2lf \n", Personel2Kopyasi.Maas);
 
+    printf("\n............................\n");
 
     return 0;
 }
