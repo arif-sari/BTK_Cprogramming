@@ -18,7 +18,7 @@ int main()
     //ampersand &= and per se and (ve yalnızca ve anlamına gelir)
     //bir değişkenimiz var bu değişkenimizin adresini ve değerini yazdırmak istiyoruz
 
-
+    //printf("karakter değişkeninin değeri = %c, karakter değişkeninin adresi =%u\n",söz edilen karakterin içeriğin değerii,&yazıldığı bellek adresi);
     printf("karakter değişkeninin değeri = %c, karakter değişkeninin adresi =%u\n",karakter,&karakter);
     printf("tamsayı değişkeninin değeri = %d, tamsayı değişkeninin adresi = %u\n",tamSayi,&tamSayi);
     printf("gercel_sayi değişkeninin değeri = %f, gercel_sayı değişkeninin adresi =%u\n",gercel_tamsayi,&gercel_tamsayi);
