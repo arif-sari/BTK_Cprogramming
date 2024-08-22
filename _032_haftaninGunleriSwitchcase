@@ -31,6 +31,8 @@ int main()
     case 7:
         printf("Pazar");
         break;
+    default:
+        printf("Geçersiz bir deger girdiniz");
     }
     return 0;
 }
