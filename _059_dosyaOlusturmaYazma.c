@@ -7,7 +7,7 @@
 int main()
 {
     /*veri boyutu depolayan karakter dizizi */
-    char [VERI_BOYUTU];
+    char veri[VERI_BOYUTU];
 
   /*File Pointer to hold referance to our file*/
   FILE * fPtr;
@@ -30,7 +30,7 @@ int main()
 
     //veriyi dosyaya yaz
 
-    fputs(ver, fPtr);
+    fputs(veri, fPtr);
 
     // Dosyayı kapat
 
@@ -38,7 +38,7 @@ int main()
 
     // başarı ile mesaj yazdırıldı
 
-    print("Dosya başarı ile yazdırıldı ve içeriği kaydedildi... ");
+    printf("Dosya başarı ile yazdırıldı ve içeriği kaydedildi... ");
 
 
     return 0;
