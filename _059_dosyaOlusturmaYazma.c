@@ -15,16 +15,16 @@ int main()
   // w (write) modunda aç
   // "data/file.txt" dosya güzergahı
 
-  fPtr = fopen("dosya1.txt","w+");
+  fPtr = fopen("dosya1.txt", "w+");
 
   //fopen() başarısız olursa null dönecek
 
-  if(fPtr==NULL){
-
-    printf("Dosya olusturulamadı. \n");
-    exit(EXIT_FAILURE);
+  if(fPtr == NULL)
+    {
+      printf("Dosya olusturulamadı. \n");
+      exit(EXIT_FAILURE);
     }
-
+    //Dosyaya kaydedilecek olan girdileri kullanıcıdan al
     printf("Dosyaya kaydedilecek olan girdiyi al: \n");
     fgets(veri,VERI_BOYUTU,stdin);
 
